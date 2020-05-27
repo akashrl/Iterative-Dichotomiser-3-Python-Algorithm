@@ -1,8 +1,10 @@
 #  ID3 (Iterative Dichotomiser 3) Algorithm
 
-See ID3_Proj.pdf for full project and algorithm details.
+See ***ID3.py*** for algorithm implementation.
 
-This assignment was algorithm from scratch in **Python**. No model already implemented were used (like those in the scikit-learn library).
+See ***ID3_Proj.pdf*** for full project and algorithm details.
+
+This assignment was algorithm from scratch in **Python**. No models already implemented were used (like those in the scikit-learn library).
 
 # Algorithm Details
 
@@ -31,8 +33,8 @@ The python script takes the following arguments:
 
 4. train-set-size: percentage of dataset used for training.
 
-Each case may have some additional command-line arguments, which will be mentioned in
-its format section. Use following examples to get the list of arguments.
+Each case may have some additional command-line arguments, which will be mentioned in its format section. Use following examples to get the list of arguments.
 
 The code reads the training set from train-file, extracts the required features, trains the decision tree on the training set, and tests it on the test set from test-file.
+
 For debugging purposes, a small fraction of the dataset, for example, by using X[:100], was used to test with the first 100 data points.
